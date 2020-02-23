@@ -19,3 +19,22 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.categories{
+    color: #fff;
+}
+.categories img{
+    width: 100px;
+}
+.cat-1, .cat-2, .cat-3{
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+.cat-1{
+    background-color: #FFA500;
+}
+.cat-2{
+    background-color: #DA70D6;
+}
+.cat-3{
+    background-color: #0000FF;
+}
