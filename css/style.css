@@ -1,3 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Raleway', ;;
+}
 .slider-bg{
     background-color: #FCEAE8;
     border-radius: 10px;
@@ -37,4 +43,30 @@
 }
 .cat-3{
     background-color: #0000FF;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px lightgray;
+}
+.card-footer{
+    border: none;
+    background: none;
+}
+.card img{
+    transform: scale(1);
+    transition: all linear .4s;
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.2);
+}
+
+#subscribe{
+    background: #FCEAE8;
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
 }
